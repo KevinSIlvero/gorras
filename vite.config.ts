@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    // 👇 ESTA LÍNEA ES CLAVE PARA GITHUB PAGES
     base: '/gorras/',
 
     server: {
